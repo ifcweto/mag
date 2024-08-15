@@ -1,0 +1,85 @@
+Aula: Introdução ao JavaScript
+1. Estrutura básica de um script JavaScript
+Objetivo: Compreender a estrutura fundamental de um script JavaScript e como ele é integrado em uma página HTML.
+O que é JavaScript?
+Linguagem de programação orientada a objetos e amplamente usada para desenvolvimento web.
+Abaixo um exemplo Incluindo JavaScript em uma página HTML usando a tag <script>:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Básico</title>
+  <script>
+    // Código JavaScript aqui
+    console.log("Olá, JavaScript!");
+  </script>
+</head>
+<body>
+  <h1>Minha Primeira Página com JavaScript</h1>
+</body>
+</html>
+
+Para inserir um script Externo:
+<script src="script.js"></script>
+2. Variáveis e Tipos de Dados
+Objetivo: Entender como declarar variáveis em JavaScript e explorar os diferentes tipos de dados disponíveis.
+
+Declaração de Variáveis:
+Introduzir var, let, e const.
+var: escopo de função, pode ser redeclarada.
+let: escopo de bloco, não pode ser redeclarada.
+const: escopo de bloco, valor constante.
+Abaixo um exemplo javascript
+var nome = "João";
+let idade = 30;
+const pi = 3.14;
+Tipos de Dados:
+String: Texto. Exemplo: "Olá"
+Number: Números. Exemplo: 42
+Boolean: Verdadeiro ou falso. Exemplo: true ou false
+Null: Ausência intencional de valor. Exemplo: null
+Undefined: Variável declarada, mas sem valor. Exemplo: undefined
+Objetos: Estruturas mais complexas, como Arrays e Functions.
+Exemplo:
+let nome = "Ana"; // String
+let idade = 25;   // Number
+let ativo = true; // Boolean
+let saldo = null; // Null
+let endereco;     // Undefined
+3. Operadores e Expressões
+Objetivo: Aprender sobre operadores e como eles são usados em expressões para manipular valores.
+Operadores Aritméticos:
+Soma (+), Subtração (-), Multiplicação (*), Divisão (/), Módulo (%), Incremento (++), Decremento (--)
+Exemplo javascript
+let a = 10;
+let b = 3;
+console.log(a + b); // 13
+console.log(a % b); // 1
+Operadores de Atribuição:
+*Atribuição Simples (=), Atribuição Combinada (+=, -=, =, /=, %=)
+Exemplo javascript
+let c = 5;
+c += 2; // c = c + 2
+console.log(c); // 7
+Operadores de Comparação:
+Igualdade (==), Igualdade Estrita (===), Diferença (!=), Diferença Estrita (!==), Maior que (>), Menor que (<), Maior ou Igual (>=), Menor ou Igual (<=)
+Exemplo javascript
+let d = 8;
+console.log(d == "8");  // true (compara valor)
+console.log(d === "8"); // false (compara valor e tipo)
+Operadores Lógicos:
+E (&&), Ou (||), Não (!)
+Exemplo javascript
+let e = true;
+let f = false;
+console.log(e && f); // false
+console.log(e || f); // true
+console.log(!e);     // false
+Exercícios Práticos estrutura de um Script:
+Crie um script que exiba uma mensagem no console ao carregar a página.
+Exercícios variáveis e Tipos de Dados:
+Declare variáveis usando var, let, e const e exiba seus valores.
+Exercícios de operadores e Expressões:
+Escreva expressões utilizando diferentes operadores e exiba o resultado no console.
+
